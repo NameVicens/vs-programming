@@ -7,8 +7,8 @@
 # Ingresar: ISBN y título del libro.
 #
 # Reglas de precio:
-# - Portada suave: $10.000
-# - Portada dura:  $15.000
+# - Portada suave: $10
+# - Portada dura:  $15
 # - Cada página:   $10
 #
 # Descuentos sobre el pago bruto:
