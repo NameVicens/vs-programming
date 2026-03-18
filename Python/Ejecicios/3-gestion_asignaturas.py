@@ -7,3 +7,24 @@
 # 2. Mostrar el mensaje "Yo estudio <asignatura>" para cada una.
 # 3. Preguntar al usuario la nota obtenida en cada asignatura
 #    y mostrar "En <asignatura> has sacado <nota>".
+
+Asginaturas = []
+
+
+while True:
+
+    print("\n======== MENÚ ========")
+    print("1. Añadir asignatura")
+    print("2. Ver Asginaturas")
+    print("3. Salir del programa")
+    
+    opcion = int(input("Ingrese una opción: "))
+    print("\n" * 50)
+    
+    if opcion == 1:
+        
+        materia = str(input("Ingresa tu asignatura: "))
+        Asginaturas.append(materia)
+    if opcion == 2:
+        for i in range(len(Asginaturas)):
+            print("Has tenido", Asginaturas[i])
